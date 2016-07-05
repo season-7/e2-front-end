@@ -145,7 +145,7 @@ table {
 */
 
 body {
-    background: #352D2F;
+    background: #605A5C;
     color: #fff;
     font: 300 16px/22px "Lato", sans-serif;
 }
@@ -326,6 +326,8 @@ p a {
     color: white;
     font-weight: bold;
     line-height: 1.9;
+    left: 25%;
+    
 }
 
 #history {
@@ -370,15 +372,75 @@ p a {
     font-size: 30px;
     width: auto;
 }
-
-.counimg {
-    margin: 0px 0px 15px 15px;
+#counterdiv{
+    width:20%;
+    height: 300px;
+    font-size: 25px;
+    color: red;
+    line-height: 1.1;
     display: inline-block;
+}
+.counimg {
+    margin: 0px 0px 15px 1px;
 }
 
 #services {
     background: #eaeaea;
     height: 500px;
+    vertical-align: middle;
+    text-align: center;
+/*
+    align-content: center;
+*/
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#servicetitle {
+   color: black;
+    font-size: 40px;
+    font-weight: bolder;
+     text-align: left;
+    margin-left: 290px;
+    text-transform: uppercase;
+    
+    
+}
+#counterservices{
+    width:20%;
+    height: 200px;
+    font-size: 11px;
+    color: black;
+    display: inline-block;
+}
+#counterjournal{
+    
+    width:30%;
+    height: 200px;
+    font-size: 11px;
+    color: black;
+    display: inline-block;
+    
+}
+.jourimg{
+    
+    width:30%;
+    height:200px;
+    
+    
+}
+
+
+
+#counterservices h3{
+    width:100%;
+   
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+    
+    display: inline-block;
 }
 
 #calltoaction {
@@ -388,14 +450,51 @@ p a {
     align-content: center;
     justify-content: center;
 }
+#calltoaction h1{
+    
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    
+}
+#calltoaction p{
+    
+      color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding-bottom: 50px
+    
+}
+#calltoaction span{
+    
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border-bottom: 5px solid white;
+    
+}
+
+
 
 .journal {
     height: 500px;
     background: #fff;
 }
+
+.journaltitle{
+    
+    
+    
+    
+}
 .brandlogos{
-    margin-right: 29px;
+    margin-right: 39px;
     margin-top: 35px;
+    margin-left: 20px;
     
 }
 
