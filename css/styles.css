@@ -1,4 +1,9 @@
-    html,
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
 body,
 div,
 span,
@@ -203,7 +208,7 @@ p a {
     height: 70px;
     width: 99%;
     font-weight: 700;
-    top: 50px;
+    top: 30px;
 }
 
 #navlinks {
@@ -212,8 +217,15 @@ p a {
     justify-content: center;
 }
 
-#social {
-    left: 90%;
+.social {
+    float: right;
+    clear: both;
+    right: 10px;
+}
+
+.social i {
+    padding-left: 50px;
+    padding-top: 12px;
 }
 
 #header {
@@ -356,11 +368,12 @@ p a {
     color: #F63C3C;
     font-weight: 900;
     font-size: 30px;
+    width: auto;
 }
 
 .counimg {
     margin: 0px 0px 15px 15px;
-    padding-right: 15px;
+    display: inline-block;
 }
 
 #services {
@@ -376,14 +389,69 @@ p a {
     justify-content: center;
 }
 
-#journal {
+.journal {
     height: 500px;
     background: #fff;
+}
+.brandlogos{
+    margin-right: 29px;
+    margin-top: 35px;
+    
 }
 
 #closing {
     background-color: #605A5C;
-    height: 200px;
+    height: 400px;
     text-align: center;
     align-content: center;
     justify-content: center;
+    width: auto;
+    padding: 20px;
+}
+#closing p
+{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 20px;
+    
+    line-height: 1.9;
+    
+    
+}
+
+#closing span
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 20px;
+    
+    line-height: 1.9;
+    margin: 15px;
+    padding-bottom: 25px;
+    
+    
+}
+
+
+img #clo {
+    float: right;
+    margin: 0px 0px 15px 35px;
+}
+
+#connectedsection{
+    
+    background-color: #eaeaea;
+    height: 400px;
+    
+    
+    
+}
+#footer{
+    
+    background-color: #fff;
+    height: 100px;
+    
+    
+}
