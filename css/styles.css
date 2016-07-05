@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.sage {
+    float: right;
+}
+.first-section {
+    clear: both;
+}
+.services {
+    display: inline-block;
+}
+.call-to-action {
+    margin: 0 auto;
+    padding: 0 50px 0 50px;
+    height: 100px;
+}
+
+/*
+  ============================================
+  Body
+  ============================================
+*/
+body {
+    font-size: 15px;
+}
+/*
+  ============================================
+  Header
+  ============================================
+*/
+
+nav {
+    text-align: center;
+}
+/*
+  ============================================
+  Main-Header
+  ============================================
+*/
+
+.main-header h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
