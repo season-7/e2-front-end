@@ -460,7 +460,7 @@ p a {
 
 #counterjournal {
     width: 25%;
-    height: 400px;
+    height: 460px;
     font-size: 11px;
     color: black;
     display: inline-block;
@@ -624,7 +624,7 @@ img #clo {
     width: 29%;
     height: 210px;
     font-size: 20px;
-    color: black;
+    color: #f4f4f4;
     display: inline;
     /*background-color: #605A5C;*/
     float: right;
@@ -640,5 +640,42 @@ img #clo {
     /*background-color: #352D2F;*/
     float: right;
     text-align: center;
+    vertical-align: middle;
+
+
+
+}
+#connect i{
+
+    color: #fff;
+    font-size: 50px;
+    padding: 5%;
+}
+.emailadd{
+height: 35px;
+width:210px;
+margin-left: -10%;
+
+
+}
+.buttonsignup{
+
+    background-color: #F63C3C;
+    width: 180px;
+    padding: 10px;
+    margin-top: 27px;
+    height: 35px;
+    margin-left: -5px;
+
+
+}
+.connecttwo p{
+
+
+
+
+}
+.views{
+width: 500px;
 
 }
