@@ -281,7 +281,7 @@ p a {
 }
 
 #highlights .desc {
-    height: 400px;
+    height: 250px;
     background-color: #fff;
     width: 50%;
     color: black;
@@ -313,20 +313,22 @@ p a {
     height: 200px;
     background-color: #fff;
     width: 50%;
-    color: black;
+    color: #424242;
     align-content: center;
     justify-content: center;
+    padding-top: 15px;
 }
 
 #highlights .highdiscovermore .exploremore {
     text-align: center;
     background-color: #F63C3C;
     padding: 10px;
-    width: 100px;
+    width: 200px;
     margin: auto auto;
     color: #fff;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 #highlights .featured {
@@ -336,19 +338,30 @@ p a {
     text-align: center;
     align-content: center;
     justify-content: center;
+    padding-top: 90px;
+}
+#highlights .featured p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2.2;
+    color: #e4e4e4;
+
 }
 
-#highlights .featured h3 {
+#highlights .featured .featuredin h3{
     color: white;
     font-weight: bold;
+    font-size: 34px;
     line-height: 1.9;
     left: 25%;
 }
 
 #history {
     background: #fff;
-    height: 500px;
+    height: 600px;
     padding-top: 15px;
+    line-height: 1.8;;
 }
 
 #history .firsthistory {
@@ -365,18 +378,30 @@ p a {
     height: 100%;
     display: block;
 }
+.firsthistory h3{
+ font-weight: bolder;
+ line-height: 2.1;
+ font-size: 40px;
+ color: #000;
+ letter-spacing: 6.5px;
+ text-transform: uppercase;
+ text-align: center;
 
-.firsthistory .exploremore {
+}
+.exploremorehistory{
     text-align: center;
+    vertical-align: middle;
     background-color: #F63C3C;
     padding: 10px;
-    width: 100px;
-    margin: auto auto;
+    width: 200px;
     color: #fff;
     text-transform: uppercase;
-    font-size: 12px;
-}
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top:5%;
+        margin-left:5%;
 
+}
 .counters {
     background-color: white;
     text-align: center;
@@ -386,6 +411,8 @@ p a {
     font-weight: 900;
     font-size: 30px;
     width: auto;
+    padding-top: 90px;
+    margin-top: -5px;
 }
 
 #counterdiv {
@@ -403,7 +430,7 @@ p a {
 
 #services {
     background: #eaeaea;
-    height: 500px;
+    height: 600px;
     vertical-align: middle;
     text-align: center;
     /*
@@ -418,7 +445,7 @@ p a {
     font-size: 40px;
     font-weight: bolder;
     text-align: left;
-    margin-left: 290px;
+    margin-left: 250px;
     text-transform: uppercase;
 }
 
@@ -428,6 +455,7 @@ p a {
     font-size: 11px;
     color: black;
     display: inline-block;
+    margin-top: 40px;
 }
 
 #counterjournal {
@@ -454,6 +482,7 @@ p a {
     text-transform: uppercase;
     font-weight: bolder;
     display: inline-block;
+    color: #000;
 }
 
 #calltoaction {
@@ -489,7 +518,7 @@ p a {
 }
 
 .journal {
-    height: 500px;
+    height: 600px;
     background: #eaeaea;
     text-align: center;
     justify-content: center;
@@ -592,12 +621,24 @@ img #clo {
 }
 
 #connect {
-    width: 19%;
+    width: 29%;
     height: 210px;
-    font-size: 11px;
+    font-size: 20px;
     color: black;
     display: inline;
-    background-color: #fff;
-    border: 1px solid #000;
+    /*background-color: #605A5C;*/
     float: right;
+    text-align: center;
+    background-color:
+}
+#connecttwo{
+    width: 40%;
+    height: 210px;
+    font-size: 20px;
+    color: black;
+    display: inline;
+    /*background-color: #352D2F;*/
+    float: right;
+    text-align: center;
+
 }
