@@ -3,87 +3,7 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -92,50 +12,28 @@ video {
     vertical-align: baseline;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
 body {
     line-height: 1;
 }
-
-ol,
-ul {
+ol, ul {
     list-style: none;
 }
-
-blockquote,
-q {
+blockquote, q {
     quotes: none;
 }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 
 /*
   ========================================
@@ -150,7 +48,6 @@ body {
     font: 300 16px/22px "Lato", sans-serif;
 }
 
-
 /*links*/
 
 
@@ -164,30 +61,22 @@ a {
     color: #fff;
     text-decoration: none;
 }
-
 a:hover {
     color: #fff;
     text-decoration: underline;
 }
-
 a:active {
     text-decoration: underline;
 }
-
 p a {
     border-bottom: 1px solid #dfe2e5;
 }
-
-.primary-header a,
-.primary-footer a {
+.primary-header a, .primary-footer a {
     color: #fff;
 }
-
-.primary-header a:hover,
-.primary-footer a:hover {
+.primary-header a:hover, .primary-footer a:hover {
     color: #648880;
 }
-
 
 /**/
 
@@ -200,7 +89,6 @@ p a {
     top: 0px;
     background-color: #362d30;
 }
-
 #navlinks {
     position: absolute;
     top: 0;
@@ -210,24 +98,20 @@ p a {
     font-weight: 700;
     top: 30px;
 }
-
 #navlinks {
     display: flex;
     align-content: center;
     justify-content: center;
 }
-
 .social {
     float: right;
     clear: both;
     right: 10px;
 }
-
 .social i {
     padding-left: 50px;
     padding-top: 12px;
 }
-
 #header {
     height: 10px;
     background-color: transparent;
@@ -237,7 +121,6 @@ p a {
     width: 100%;
     background-color: #362d30;
 }
-
 #header .title {
     font-size: 50px;
     color: #fff;
@@ -248,9 +131,8 @@ p a {
     justify-content: center;
     font-weight: bold;
     line-height: 2.7;
-     letter-spacing: 5px;
+    letter-spacing: 5px;
 }
-
 #header .subtitle {
     font-size: 25px;
     line-height: 1.8;
@@ -262,7 +144,6 @@ p a {
     justify-content: center;
     font-weight: normal;
 }
-
 #header .exploremore {
     text-align: center;
     background-color: #fff;
@@ -274,12 +155,10 @@ p a {
     font-size: 16px;
     font-weight: bolder;
 }
-
 #highlights {
     height: 600px;
     background-color: #F63C3C;
 }
-
 #highlights .desc {
     height: 250px;
     background-color: #fff;
@@ -291,15 +170,13 @@ p a {
     line-height: 1.9;
     font-weight: bolder;
 }
-#highlights .desc h1{
+#highlights .desc h1 {
     font-weight: bolder;
     font-size: 50px;
     color: #000;
     line-height: 1.2;
     letter-spacing: 2.3px;
     text-transform: uppercase;
-
-
 }
 #highlights .descblank {
     height: 200px;
@@ -308,7 +185,6 @@ p a {
     align-content: center;
     justify-content: center;
 }
-
 #highlights .highdiscovermore {
     height: 200px;
     background-color: #fff;
@@ -318,7 +194,6 @@ p a {
     justify-content: center;
     padding-top: 15px;
 }
-
 #highlights .highdiscovermore .exploremore {
     text-align: center;
     background-color: #F63C3C;
@@ -330,7 +205,6 @@ p a {
     font-size: 18px;
     font-weight: bolder;
 }
-
 #highlights .featured {
     float: right;
     clear: both;
@@ -340,36 +214,32 @@ p a {
     justify-content: center;
     padding-top: 90px;
 }
-#highlights .featured p{
+#highlights .featured p {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bolder;
     letter-spacing: 2.2;
     color: #e4e4e4;
-
 }
-
-#highlights .featured .featuredin h3{
+#highlights .featured .featuredin h3 {
     color: white;
     font-weight: bold;
     font-size: 34px;
     line-height: 1.9;
     left: 25%;
 }
-
 #history {
     background: #fff;
     height: 600px;
     padding-top: 15px;
-    line-height: 1.8;;
+    line-height: 1.8;
+    ;
 }
-
 #history .firsthistory {
     width: 50%;
     color: #000;
     padding: 10px;
 }
-
 #history .firstimage {
     float: right;
     clear: both;
@@ -378,17 +248,16 @@ p a {
     height: 100%;
     display: block;
 }
-.firsthistory h3{
- font-weight: bolder;
- line-height: 2.1;
- font-size: 40px;
- color: #000;
- letter-spacing: 6.5px;
- text-transform: uppercase;
- text-align: center;
-
+.firsthistory h3 {
+    font-weight: bolder;
+    line-height: 2.1;
+    font-size: 40px;
+    color: #000;
+    letter-spacing: 6.5px;
+    text-transform: uppercase;
+    text-align: center;
 }
-.exploremorehistory{
+.exploremorehistory {
     text-align: center;
     vertical-align: middle;
     background-color: #F63C3C;
@@ -398,9 +267,8 @@ p a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
-    margin-top:5%;
-        margin-left:5%;
-
+    margin-top: 5%;
+    margin-left: 5%;
 }
 .counters {
     background-color: white;
@@ -414,7 +282,6 @@ p a {
     padding-top: 90px;
     margin-top: -5px;
 }
-
 #counterdiv {
     width: 20%;
     height: 300px;
@@ -423,11 +290,9 @@ p a {
     line-height: 1.1;
     display: inline-block;
 }
-
 .counimg {
     margin: 0px 0px 15px 1px;
 }
-
 #services {
     background: #eaeaea;
     height: 600px;
@@ -439,7 +304,6 @@ p a {
     justify-content: center;
     padding-top: 40px;
 }
-
 #servicetitle {
     color: black;
     font-size: 40px;
@@ -448,7 +312,6 @@ p a {
     margin-left: 250px;
     text-transform: uppercase;
 }
-
 #counterservices {
     width: 20%;
     height: 200px;
@@ -457,7 +320,6 @@ p a {
     display: inline-block;
     margin-top: 40px;
 }
-
 #counterjournal {
     width: 25%;
     height: 460px;
@@ -468,14 +330,12 @@ p a {
     margin-right: 10px;
     background-color: #fff;
 }
-
 .jourimg {
     width: 100%;
     height: 180px;
     background-color: black;
     margin: auto;
 }
-
 #counterservices h3 {
     width: 100%;
     font-size: 15px;
@@ -484,7 +344,6 @@ p a {
     display: inline-block;
     color: #000;
 }
-
 #calltoaction {
     background-color: #605A5C;
     height: 200px;
@@ -492,7 +351,6 @@ p a {
     align-content: center;
     justify-content: center;
 }
-
 #calltoaction h1 {
     color: white;
     font-size: 20px;
@@ -501,7 +359,6 @@ p a {
     font-weight: bolder;
     text-transform: capitalize;
 }
-
 #calltoaction p {
     color: white;
     font-size: 15px;
@@ -509,14 +366,12 @@ p a {
     margin-top: 20px;
     padding-bottom: 50px
 }
-
 #calltoaction span {
     color: white;
     font-size: 15px;
     font-weight: bolder;
     border-bottom: 5px solid white;
 }
-
 .journal {
     height: 600px;
     background: #eaeaea;
@@ -525,15 +380,12 @@ p a {
     width: 100%;
     margin: 0 auto;
 }
-
 .journaltitle {}
-
 .brandlogos {
     margin-right: 39px;
     margin-top: 35px;
     margin-left: 20px;
 }
-
 #closing {
     background-color: #605A5C;
     height: 400px;
@@ -543,7 +395,6 @@ p a {
     width: auto;
     padding: 20px;
 }
-
 #closing p {
     color: white;
     font-size: 35px;
@@ -551,7 +402,6 @@ p a {
     margin: 20px;
     line-height: 1.9;
 }
-
 #closing span {
     color: white;
     font-size: 15px;
@@ -561,34 +411,41 @@ p a {
     margin: 15px;
     padding-bottom: 25px;
 }
-
 img #clo {
     float: right;
     margin: 0px 0px 15px 35px;
 }
-
 #connectedsection {
     background-color: #eaeaea;
     height: 400px;
 }
-
 #footer {
     background-color: #fff;
     height: 100px;
+    color: #000;
+    font-size: 19px;
 }
-
+#footleft {
+    float: left;
+    width: 200px;
+    margin: 10px;
+    padding-left: 30px;
+}
+#footright {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+}
 #counterjournal h3 {
     color: red;
     background-color: #fff;
 }
-
 #counterjournal h2 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 10px;
     background-color: #fff;
 }
-
 .exploremoreb {
     text-transform: uppercase;
     padding: 10px;
@@ -598,7 +455,6 @@ img #clo {
     border: 2px solid #000;
     padding-top: 7px;
 }
-
 .showmore {
     text-align: center;
     text-transform: uppercase;
@@ -611,7 +467,6 @@ img #clo {
     margin-right: auto;
     margin-top: 20px;
 }
-
 #connectedsection {
     height: 500px;
     background: #eaeaea;
@@ -619,7 +474,6 @@ img #clo {
     overflow: hidden;
     margin-left: 0%
 }
-
 #connect {
     width: 29%;
     height: 210px;
@@ -631,7 +485,7 @@ img #clo {
     text-align: center;
     background-color:
 }
-#connecttwo{
+#connecttwo {
     width: 40%;
     height: 210px;
     font-size: 20px;
@@ -641,41 +495,27 @@ img #clo {
     float: right;
     text-align: center;
     vertical-align: middle;
-
-
-
 }
-#connect i{
-
+#connect i {
     color: #fff;
     font-size: 50px;
     padding: 5%;
 }
-.emailadd{
-height: 35px;
-width:210px;
-margin-left: -10%;
-
-
-}
-.buttonsignup{
-
-    background-color: #F63C3C;
-    width: 180px;
-    padding: 10px;
-    margin-top: 27px;
+.emailadd {
     height: 35px;
-    margin-left: -5px;
-
-
+    width: 210px;
+    margin-left: -10%;
 }
-.connecttwo p{
-
-
-
-
+.buttonsignup {
+    background-color: #F63C3C;
+    width: 220px;
+    padding: 10px;
+    margin-top: 42px;
+    height: 25x;
+    margin-left: -4px;
 }
-.views{
-width: 500px;
-
+.connecttwo p {}
+.views {
+    width: 500px;
+    margin-left: 30px;
 }
