@@ -205,6 +205,11 @@ p a {
     font-size: 18px;
     font-weight: bolder;
 }
+#highlights .highdiscovermore p{
+
+    text-align: center;
+    justify-content: center;
+}
 #highlights .featured {
     float: right;
     clear: both;
